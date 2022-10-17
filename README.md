@@ -1,0 +1,1 @@
+# verantwortungsvolles_wirtschaften
