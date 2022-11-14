@@ -195,6 +195,8 @@ div.csl-indent {
 <div id="arrows-unmöglichkeitstheorem" class="section level4 hasAnchor" number="4.1.2.1">
 <h4><span class="header-section-number">4.1.2.1</span> Arrows Unmöglichkeitstheorem<a href="gerechtigkeit.html#arrows-unmöglichkeitstheorem" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Die Darstellung folgt Weimann (2006)</p>
+<div id="grundlagen" class="section level5 hasAnchor" number="4.1.2.1.1">
+<h5><span class="header-section-number">4.1.2.1.1</span> Grundlagen<a href="gerechtigkeit.html#grundlagen" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <ul>
 <li><p>Unter Beibehaltung des normativen Individualismus müsste es gelingen, aus Einzelpräferenzen eine gesellschaftliche Präferenz zu aggregieren.<br />
 <span class="math inline">\(\rightarrow\)</span> Mechanismus der Präferenzaggregation finden</p></li>
@@ -202,8 +204,7 @@ div.csl-indent {
 </ul>
 <p><strong>Pareto-Effizienz (P)</strong>: Wenn eine Alternative existiert, die von allen Individuen einer anderen Alternativen vorgezogen wird, bzw. von keinem Individuum abgelehnt wird, dann soll auch die soziale Ordnung diese Alternative bevorzugen.</p>
 <p><strong>Ausschluss von Diktatur (ND)</strong>: Es soll kein Individuum existieren, dessen individuelle Präferenzordnung immer, ganz gleich wie die Präferenzen der anderen Gesellschaftsmitglieder aussehen, identisch ist mit der sozialen Ordnung.</p>
-<p><strong>Transitivität (T)</strong>: Die soziale Präferenz soll eine transitive Ordnung über die Alternativen sein.
-\end{description}</p>
+<p><strong>Transitivität (T)</strong>: Die soziale Präferenz soll eine transitive Ordnung über die Alternativen sein.</p>
 <p><strong>Unrestricted Domain (UD)</strong>: Alle möglichen individuellen Präferenzordnungen über die Alternativen sind auch zugelassen.</p>
 <p><strong>Unabhängigkeit von irrelevanten Alternativen (UIA)</strong>: Die gesellschaftliche Präferenz bezüglich zweier Alternativen darf nur
 von den individuellen Ordnungen zwischen diesen beiden Alternativen
@@ -211,8 +212,77 @@ abhängen, nicht jedoch von der Position einer dritten Alternative.</p>
 <p><strong>Unmöglichkeitstheorem</strong>: Jede SWF, die den Axiomen <strong>P</strong>, <strong>T</strong>, <strong>UD</strong> und
 <strong>UIA</strong> genügt, genügt nicht <strong>ND</strong> und ist daher diktatorisch.</p>
 </div>
+<div id="der-beweis" class="section level5 hasAnchor" number="4.1.2.1.2">
+<h5><span class="header-section-number">4.1.2.1.2</span> Der Beweis<a href="gerechtigkeit.html#der-beweis" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<p><strong>Begrifflichkeiten</strong></p>
+<p>Definition: Eine Gruppe <span class="math inline">\(G\)</span> ist <em>decisive bezüglichden Alternativen <span class="math inline">\(x,y\)</span></em>, wenn immer dann, wenn alle
+Mitglieder von <span class="math inline">\(G\)</span> <span class="math inline">\(x\)</span> der Alternative <span class="math inline">\(y\)</span> vorziehen, auch in der
+sozialen Rangordnung <span class="math inline">\(x\)</span> vor <span class="math inline">\(y\)</span> rangiert.</p>
+<p>Ist eine Gruppe <em>bezüglich aller Alternativen decisive</em>, dann ist sie <em>decisive</em>.</p>
+<p>Der Beweis erfolgt in drei Schritten.</p>
+<p><strong>1. Feld-Erweiterungs-Lemma</strong></p>
+<p><em>Wenn eine Gruppe über ein beliebiges Alternativenpaar decisive ist, dann ist sie decisive.</em></p>
+<p>Gegeben seien vier Alternativen <span class="math inline">\(\left(x,y\right)\)</span> und <span class="math inline">\(\left(a,b\right)\)</span>.</p>
+<p><span class="math inline">\(G\)</span> sei decisive bezüglich <span class="math inline">\(\left(x,y\right)\)</span>.</p>
+<p>Zu zeigen: <span class="math inline">\(G\)</span> ist auch decisive bezüglich <span class="math inline">\((a,b)\)</span>.</p>
+<p>Alle Mitglieder in <span class="math inline">\(G\)</span> haben die Präferenzordnung <span class="math inline">\(a\succ x\succ y\succ b\)</span></p>
+<p>Für alle nicht in <span class="math inline">\(G\)</span> gilt: <span class="math inline">\(a\succ x\)</span> und <span class="math inline">\(y\succ b\)</span></p>
+<p>Hinsichtlich der anderen Paare sind alle möglichen Relationen zugelassen.</p>
+<p>Für die soziale Rangfolge gilt dann: <span class="math inline">\(x\succ y\)</span>, weil per Annahme
+<span class="math inline">\(G\)</span> decisive für dieses Paar ist.</p>
+<p>Es gilt auch für die soziale Rangfolge <span class="math inline">\(a\succ x\)</span>, weil dies für
+alle Gesellschaftsmitglieder gilt und wir <strong>P</strong> annehmen.</p>
+<p>Gleiches Argument: <span class="math inline">\(y\succ b\)</span>.</p>
+<p>Aus <strong>T</strong> und <span class="math inline">\(x\succ y\)</span> folgt die soziale Präferenzordnung <span class="math inline">\(a\succ x\succ y\succ b\)</span>.</p>
+<p>Da <strong>UIA</strong> gilt, kann die Rangfolge <span class="math inline">\(a\succ b\)</span> nur durch die
+Mitglieder in <span class="math inline">\(G\)</span> bestimmt worden sein.</p>
+<p>Damit ist <span class="math inline">\(G\)</span> decisive für <span class="math inline">\(\left(a,b\right)\)</span> und damit decisive.</p>
+<p><strong>2. Gruppen-Konzetrations-Lemma</strong></p>
+<p><em>Wenn eine Gruppe G mit mehr als einem Mitglied decisive ist, dann ist es auch eine kleinere Gruppe, die in G enthalten ist.</em></p>
+<p><span class="math inline">\(G\)</span> sei decisive und bestehe aus <span class="math inline">\(G_{1}\)</span> und <span class="math inline">\(G_{2}\)</span>.</p>
+<p>Für alle Mitglieder von <span class="math inline">\(G_{1}\)</span> gelte <span class="math inline">\(x\succ y\)</span> (s.o.) und <span class="math inline">\(x\succ z\)</span>.
+Die Ordnung zwischen <span class="math inline">\(\left(y,z\right)\)</span> sei beliebig.</p>
+<p>Wenn nun für die soziale Rangordnung gilt: <span class="math inline">\(x\succ z\)</span>, dann ist <span class="math inline">\(G_{1}\)</span> für dieses Paar decisive.</p>
+<p>Wenn für die soziale Rangordnung gilt <span class="math inline">\(x\preceq z\)</span>, dann ist <span class="math inline">\(G_{2}\)</span>
+für dieses Paar decisive.</p>
+<p>Wenn für die soziale Rangfolge gilt <span class="math inline">\(z\succ x\)</span>, und <span class="math inline">\(x\succ y\)</span> (<span class="math inline">\(G\)</span>
+ist decisive), dann muss wegen  gelten: <span class="math inline">\(z\succ x\succ y\)</span>.</p>
+<p>Damit ist dann <span class="math inline">\(G_{2}\)</span> decisive bezüglich <span class="math inline">\(\left(z,x\right)\)</span> und somit
+decisive.</p>
+<p>Wenn also <span class="math inline">\(G\)</span> decisive ist, dann ist entweder <span class="math inline">\(G_{1}\)</span> oder <span class="math inline">\(G_{2}\)</span>.</p>
+<p><strong>3. Feld-Erweiterungs-Lemma</strong></p>
+<p>Aus <strong>P</strong> folgt, dass die gesamte Gruppe immer decisive ist.</p>
+<p>Das Gruppen-Konzentrations-Lemma, erlaubt es, immer kleinere Gruppen
+zu bilden.</p>
+<p>Am Ende erhält man eine Gruppe, die aus einem Mitglied besteht - und das verstößt gegen <strong>ND</strong>.</p>
+</div>
+<div id="schlussfolgerungen" class="section level5 hasAnchor" number="4.1.2.1.3">
+<h5><span class="header-section-number">4.1.2.1.3</span> Schlussfolgerungen<a href="gerechtigkeit.html#schlussfolgerungen" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<ul>
+<li><p>Was nun?</p></li>
+<li><p>Abkehr von einzelnen Anforderungen, insb.</p>
+<ul>
+<li><strong>T</strong> (Aber: Zufall akzeptabel?)</li>
+<li><strong>UD</strong> (Aber: Wirklich bestimmte Präferenzen (Individuen!) ausschließen)</li>
+<li><strong>UIA</strong> (Aber: Strategieanfälligkeit)</li>
+</ul></li>
+<li><p>Abkehr von dem Vorhaben, Wertungen auf die Präferenzen der Individuen zurückzuführen?<br />
+<span class="math inline">\(\rightarrow\)</span> Stattdessen: Offenlegen der zugrundegelegten Wertungen</p></li>
+<li><p>Verschiebung der Fragestellug: Nicht Zustände sind gerecht oder ungerecht, sondern Handlungen und Prozesse, die Zustände herbeiführen?</p></li>
+</ul>
+</div>
+</div>
 <div id="der-konsitutionenökonomische-ansatz" class="section level4 hasAnchor" number="4.1.2.2">
 <h4><span class="header-section-number">4.1.2.2</span> Der konsitutionenökonomische Ansatz<a href="gerechtigkeit.html#der-konsitutionenökonomische-ansatz" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p>Einstimmige Einigung auf Regeln als Ausweg aus dem Unmöglichkeitstheorem</p></li>
+<li><p>Einstimmigkeit hinter dem „Schleier des Nichtwissens“</p>
+<ul>
+<li><p>Individuen wissen nichts über persönliche Merkmale</p></li>
+<li><p>Individuen verfügen über (zutreffendes?) positives Wissen über die Funkionsweise der Welt</p></li>
+</ul></li>
+<li><p>Worauf werden Indivuden sich einigen? <span class="math inline">\(\dots\)</span></p></li>
+</ul>
 </div>
 </div>
 </div>
